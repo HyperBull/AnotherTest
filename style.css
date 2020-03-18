@@ -1,33 +1,74 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('/media/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    background: powderblue;
+    background: #e5dcd2;
 }
 
 
 
 /* HEADER */
 #main-header{
-    background: lightcoral;
+    background: #ffffff00;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1001;
+    font-size: 1.5em;
+    font-family: 'Roboto';
 }
 #header-title{
-    color: papayawhip;
-    padding: 20px 10px;
+    color: #1a512e;
 }
 #header-nav{
     display: flex;
 }
 .main-link{
-    margin-right: 20px;
+    margin-right: 25px;
     text-decoration: none;
-    color: papayawhip;
+    color: #1a512e;
 }
+
+
+
+/* BANNER */
+#banner{
+    background: url('/media/images/background-cactus.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    border-bottom: 2px solid #38494c;
+    position: relative;
+}
+#banner-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-title{
+    color: #b0d3bf;
+}
+.banner-phrase{
+
+}
+
+
+
 
 /* MAIN CONTENT */
 #main-content{
@@ -41,14 +82,12 @@ body{
 
 /* ARTICLES */
 .card{
+    max-width: 450px;
     width: 70vw;
     padding: 10px;
     margin-bottom: 10px;
-    background: papayawhip;
+    background:#c6dc93;
 }
 .card-heading{
-    color: purple;
-}
-.card-title{
-    /* margin: 10px;S */
+    color: #589d62;
 }
