@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: powderblue;
+}
+header{
+    background: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+h1{
+    color: papayawhip;
+    padding: 20px 10px;
+}
+nav{
+    display: flex;
+}
+nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: papayawhip;
+}
