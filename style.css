@@ -6,21 +6,49 @@
 body{
     background: powderblue;
 }
-header{
+
+
+
+/* HEADER */
+#main-header{
     background: lightcoral;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
-h1{
+#header-title{
     color: papayawhip;
     padding: 20px 10px;
 }
-nav{
+#header-nav{
     display: flex;
 }
-nav a{
+.main-link{
     margin-right: 20px;
     text-decoration: none;
     color: papayawhip;
+}
+
+/* MAIN CONTENT */
+#main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+/* ARTICLES */
+.card{
+    width: 70vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: papayawhip;
+}
+.card-heading{
+    color: purple;
+}
+.card-title{
+    /* margin: 10px;S */
 }
