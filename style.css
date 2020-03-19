@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face{
     font-family: 'Roboto';
     src: url('/media/fonts/Roboto-Regular.ttf') format('truetype');
@@ -98,3 +99,11 @@ body{
     color: #38494c;
     margin-left: 10px;
 }
+=======
+h1{
+    background-color: red;
+}
+p{
+    color: blue;
+}
+>>>>>>> 27fcae8f9011ff00ba16720d26542ae0e981f006
