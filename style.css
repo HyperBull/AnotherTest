@@ -90,4 +90,11 @@ body{
 }
 .card-heading{
     color: #589d62;
+    display: inline;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.stamp{
+    color: #38494c;
+    margin-left: 10px;
 }
