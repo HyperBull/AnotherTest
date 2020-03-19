@@ -43,18 +43,13 @@ body{
 
 /* BANNER */
 #banner{
-    /* background: url('/media/images/background-gaming.jpg'); */
-    /* background-position: center center;
+    background: url('/media/images/background-gaming.jpg');
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     height: 70vh;
     border-bottom: 2px solid #38494c;
     position: relative;
-}
-#banner-img{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
 }
 #banner-content{
     position: absolute;
