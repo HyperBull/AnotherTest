@@ -29,6 +29,7 @@ body{
 }
 #header-title{
     color: #1a512e;
+    text-decoration: none;
 }
 #header-nav{
     display: flex;
@@ -43,7 +44,7 @@ body{
 
 /* BANNER */
 #banner{
-    background: url('/media/images/background-gaming.jpg');
+    background: url('./media/images/background-stage.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
