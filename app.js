@@ -4,14 +4,12 @@ const express = require('express');
 const path = require('path');
 require('dotenv').config;
 
-console.log(process.env)
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 //set ejs template engine
 app.set('view engine', 'ejs');
-
 //use static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -25,10 +23,25 @@ app.get('/',(req, res) => {
 
 //about
 app.get('/about',(req, res) => {
-    res.render('pages/index', {
+    res.render('pages/about', {
         title: 'About'
     });
 });
+
+//about
+app.get('/photos',(req, res) => {
+    res.render('pages/photos', {
+        title: 'Photos'
+    });
+});
+
+//contact
+app.get('/contact', (req, res) => {
+    res.render('pages/contact', {
+        title: 'Contact'
+    });
+});
+
 
 
 //listen on ENV.port or port 5000

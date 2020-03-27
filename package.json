@@ -5,15 +5,15 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HyperBull/AnotherTest.git"
   },
   "keywords": [
-    "app"
+    "cactus"
   ],
   "author": "Blake",
   "license": "MIT",
@@ -25,6 +25,7 @@
     "dotenv": "^8.2.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "materialize-css": "^1.0.0-rc.2",
     "nodemon": "^2.0.2"
   }
 }
