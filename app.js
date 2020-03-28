@@ -1,12 +1,11 @@
 //in terminal type 'npm run dev' to start dev server.
-
+require('dotenv').config({path: `${__dirname}/.env`});
 const express = require('express');
 const path = require('path');
-require('dotenv').config;
 
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const appPort = process.env.PORT ;
 
 //set ejs template engine
 app.set('view engine', 'ejs');
@@ -45,6 +44,6 @@ app.get('/contact', (req, res) => {
 
 
 //listen on ENV.port or port 5000
-app.listen(PORT, () => {
-    console.log(`listening on port ${PORT}`);
+app.listen(appPort, () => {
+    console.log(`listening on port ${appPort}`);
 }); 
